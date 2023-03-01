@@ -3,6 +3,7 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
+    "prisma": "cd packages/db && pnpm prisma",
     "typecheck": "turbo typecheck"
   },
   "devDependencies": {
