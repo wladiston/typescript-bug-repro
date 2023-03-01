@@ -1,0 +1,12 @@
+{
+  "exclude": ["node_modules"],
+  "extends": "@acme/tsconfig/base.json",
+  "include": ["src", "mocks", "index.ts", "transformer.ts"],
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  }
+}

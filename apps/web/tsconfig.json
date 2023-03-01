@@ -1,0 +1,9 @@
+{
+  "exclude": ["node_modules"],
+  "extends": "@acme/tsconfig/vite.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist"
+  },
+  "include": ["src"]
+}
